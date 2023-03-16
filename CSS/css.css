@@ -12,7 +12,7 @@ header {
     height: 60vh;
     margin: 3%;
     max-width: 100%;
-    border: 3px  ridge;
+    border: 3px ridge;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@ button {
     border: white;
     border-radius: 2px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
     display: block;
 }
 
@@ -48,9 +48,19 @@ button {
     color: white;
     border-radius: 10px;
 }
-.img2{
-    max-width: 100%;
+
+.container2 {
+    height: 60vh;
+    margin: 5%;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px ridge;
+    display: flex;
+    text-align: justify;
+    align-items: center;
 }
+
 .texto {
-    margin-right: 20px;
-  }
+    margin-right: 10px;
+    margin-left: 5px;
+}
